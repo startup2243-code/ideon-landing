@@ -17,20 +17,16 @@ export default function Home() {
           the script, narration, visuals, and final video — all in one place.
         </p>
 
-        <div className="mt-8 flex gap-4">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfA8wJA74e8vsbWXFuYHnVToaHtkOlGp_w4hMkRrMd4yi9oxw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-xl bg-white px-6 py-3 font-semibold text-black"
-          >
-            Join Waitlist
-          </a>
-
-          <button className="rounded-xl border border-gray-700 px-6 py-3">
-            Watch Demo
-          </button>
-        </div>
+        <div className="mt-8">
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfA8wJA74e8vsbWXFuYHnVToaHtkOlGp_w4hMkRrMd4yi9oxw/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block rounded-xl bg-white px-6 py-3 font-semibold text-black"
+  >
+    Get Early Access
+  </a>
+</div>
       </section>
 
       {/* Problem Section */}
